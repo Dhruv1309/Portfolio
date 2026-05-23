@@ -1,0 +1,8 @@
+# Pre-built static site — publish this folder as-is (no npm build).
+[build]
+  publish = "."
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
